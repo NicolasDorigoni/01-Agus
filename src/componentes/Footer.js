@@ -1,4 +1,4 @@
-import imagen from '/Users/dori_/Desktop/proyectos/01-agus/src/img/Logopiepag.png'
+import imagen from '/Users/dori_/Desktop/proyectos/01-agus/src/img/logopiedepagina.svg'
 
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 

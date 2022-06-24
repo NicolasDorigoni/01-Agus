@@ -1,0 +1,193 @@
+.titulo1{
+    color: #DDA431;
+    /* padding: 10px; */
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.separador1{
+    color: #DDA431; 
+    background-color: #DDA431; 
+    max-width: 50px;
+    padding: 2px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.titulo01{
+    margin: 50px 0 50px 0;
+}
+
+.baners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.baner1 {
+    display: inline-block;
+    position: relative;
+}
+
+.baner1 a {
+    text-decoration: none;
+    position: absolute;
+    bottom: 4em;
+    right: 9em;
+    background-color: red;
+    color: white;
+    padding: 1em 2em;
+}
+
+.img01piepadre {
+    max-width: 400px;
+    max-height: 625px;
+}
+
+.img01 {
+    width: 100%;
+    height: 100%;
+}
+
+.banner02{
+    margin: 100px 0 100px 0;
+}
+
+.banner02padre{
+    width: auto;
+}
+
+.banner02hijo{
+    width: 100%;
+}
+
+.titulo2{
+    color: black;
+    /* padding: 10px; */
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.separador2{
+    color: black; 
+    background-color: black; 
+    max-width: 50px;
+    padding: 2px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.titulo02{
+    margin: 50px 0 50px 0;
+}
+
+/* desde aca veo lo de planes */
+
+.planes{
+    display: flex;
+    justify-content: space-around;
+    height: 860px;
+    margin: 70px 0 70px 0;
+}
+
+.plan{
+    max-width: 400px;
+    background-color: #F6F4F1;
+    text-align: center;
+}
+.plan h3{
+    margin: 50px 0 25px 0;
+}
+
+.plan p{
+    font-size: medium;
+    padding: 10% 20% 10% 20%;
+}
+
+.plan button{
+    background-color: initial;
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.plan1padre{
+    max-width: 400px;
+}
+
+.plan1hijo{
+    width: 100%;
+}
+
+/* fin planes  */
+
+/* comienzo porque viejar con  */
+
+.porqueviajar{
+    width: 100%;
+    background-color: #97BFA7;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.porqueviajar1{
+    display: flex; 
+    justify-content: space-around;
+    
+}
+
+.porqueviajar h1{
+    padding: 6%;
+}
+
+.pqv h3{
+    margin: 40px 0 25px 0;
+    
+}
+
+.pqv p{
+    font-size: medium;
+    padding: 10% 20% 10% 20%;
+    
+}
+
+/* fin porque viejar con  */
+
+/* comienzo testimonios  */
+
+.testimonios{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.testimonios h3{
+    margin: 10% 0 0 0;
+}
+
+.testimonios p{
+    font-size: medium;
+    padding: 1% 10% 5% 10%;
+    
+}
+
+
+.testimonio{
+    border: 2px solid black;
+    text-align: center;
+    max-width: 400px;
+}
+
+.testimonio img{
+    border-radius: 50%;
+    margin: -18% 0 0 0;
+}
+
+/* fin testimonios  */
