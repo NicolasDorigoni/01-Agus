@@ -24,6 +24,7 @@ footer {
 .col h4 {
     text-align: justify;
     margin: 0%;
+    font-size: 20px;
 }
 
 .col ul {
@@ -83,4 +84,12 @@ hr{
     color: whitesmoke;
     padding: 10px;
     text-align: center;
+}
+
+footer p{
+    font-size: 17px;
+}
+
+footer a{
+    font-size: 17px;
 }

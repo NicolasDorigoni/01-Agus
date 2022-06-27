@@ -49,7 +49,6 @@ function Footer() {
             <div className='copyright'>
             <p>Copyright All Reserved Viaja, vuela, vive | Todos los derechos reservados</p>
             </div>
-      
 
         </footer>
     )

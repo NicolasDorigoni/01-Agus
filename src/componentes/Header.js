@@ -13,7 +13,7 @@ function Header() {
                         </li>
                         <li className="separador">-</li>
                         <li className="nav-item">
-                            <a  href="#">PEREGRINACION</a>
+                            <a  href="#">PEREGRINACIÓN</a>
                         </li>
                         <li className="separador">-</li>
                         <li className="nav-item">
@@ -21,7 +21,11 @@ function Header() {
                         </li>
                         <li className="separador">-</li>
                         <li className="nav-item">
-                            <a  href="#">EXOTICO</a>
+                            <a  href="#">EXÓTICO</a>
+                        </li>
+                        <li className="separador">-</li>
+                        <li className="nav-item">
+                            <a  href="#">INFORMACIÓN</a>
                         </li>
                         <li className="separador">-</li>
                         <li className="nav-item">

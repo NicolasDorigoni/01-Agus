@@ -1,125 +1,243 @@
-.titulo1{
+@font-face {
+    font-family: Montserrat-Black;
+    src: local("Montserrat-Black"),
+        local("Montserrat-Black"),
+        url(/src/tipografias/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: local("Montserrat-Bold"),
+        local("Montserrat-Bold"),
+        url(/src/tipografias/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: local("Montserrat-SemiBold"),
+        local("Montserrat-SemiBold"),
+        url(/src/tipografias/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: local("Montserrat-Regular"),
+        local("Montserrat-Regular"),
+        url(/src/tipografias/Montserrat-Regular.ttf);
+}
+
+
+.titulo1 {
     color: #DDA431;
     /* padding: 10px; */
     text-align: center;
-    font-size: large;
-    font-weight: bold;
+    font-size: x-large;
+    /* font-weight: 100; */
+    /* letter-spacing: 1px; */
+    /* font-family: Montserrat-Bold; */
 }
 
-.separador1{
-    color: #DDA431; 
-    background-color: #DDA431; 
-    max-width: 50px;
+.titulo01 h1 {
+    font-weight: bold;
+    font-family: Montserrat-Bold;
+}
+
+.separador1 {
+    color: #DDA431;
+    background-color: #DDA431;
+    max-width: 70px;
     padding: 2px;
     border: none;
     margin-bottom: 10px;
     margin-top: 0;
 }
 
-.titulo01{
-    margin: 50px 0 50px 0;
+.titulo01 {
+    margin: 150px 0 100px 0;
 }
+
+/* comienzo que tipo de viaje */
 
 .baners {
     display: flex;
     justify-content: space-around;
+    height: 625px;
+}
+
+.baners h3 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20%;
+}
+
+.baners p {
+    text-align: center;
+    font-size: large;
+    padding: 0% 31% 0% 31%;
+    color: #F6F4F1;
+    line-height: 20px;
 }
 
 .baner1 {
     display: inline-block;
-    position: relative;
-}
-
-.baner1 a {
-    text-decoration: none;
-    position: absolute;
-    bottom: 4em;
-    right: 9em;
-    background-color: red;
-    color: white;
-    padding: 1em 2em;
-}
-
-.img01piepadre {
+    text-align: center;
     max-width: 400px;
-    max-height: 625px;
+    /* height: 625px; */
 }
 
-.img01 {
+.baner1padre {
+    max-width: 280px;
+    height: 250px;
+    margin: 30px 60px 30px 60px;
+}
+
+.baner1hijo {
     width: 100%;
     height: 100%;
 }
 
-.banner02{
-    margin: 100px 0 100px 0;
+.baners button {
+    text-decoration: none;
+    border: none;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Montserrat-Black;
+    margin-top: 6%;
+    color: #F6F4F1;
 }
 
-.banner02padre{
+.primero {
+    background-color: #DDA431;
+}
+
+.primero button {
+    background-color: #dd3740;
+}
+
+.primero h3 {
+    color: #dd3740;
+}
+
+.segundo {
+    background-color: #5e2365;
+}
+
+.segundo h3 {
+    color: #97BFA7;
+}
+
+.segundo button {
+    background-color: #97BFA7;
+}
+
+.tercero {
+    background-color: #97BFA7;
+}
+
+.tercero h3 {
+    color: #dd3740;
+}
+
+.tercero button {
+    background-color: #dd3740;
+}
+
+/* fin que tipo de viaje  */
+
+/* comienzo banner viajar es vivir  */
+
+
+.banner02 {
+    margin: 200px 0 200px 0;
+}
+
+.banner02padre {
     width: auto;
 }
 
-.banner02hijo{
+.banner02hijo {
     width: 100%;
 }
 
-.titulo2{
+.titulo2 {
     color: black;
-    /* padding: 10px; */
+    padding: 10px;
     text-align: center;
-    font-size: large;
-    font-weight: bold;
+    font-size: 25px;
 }
 
-.separador2{
-    color: black; 
-    background-color: black; 
-    max-width: 50px;
+.titulo02 h2 {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: Montserrat-SemiBold;
+}
+
+.separador2 {
+    color: black;
+    background-color: black;
+    max-width: 70px;
     padding: 2px;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
     margin-top: 0;
 }
 
-.titulo02{
+.titulo02 {
     margin: 50px 0 50px 0;
 }
 
+/* fin banner viajar es vivir  */
+
 /* desde aca veo lo de planes */
 
-.planes{
+.planes {
     display: flex;
     justify-content: space-around;
-    height: 860px;
+    height: 820px;
     margin: 70px 0 70px 0;
 }
 
-.plan{
+.plan {
     max-width: 400px;
     background-color: #F6F4F1;
     text-align: center;
 }
-.plan h3{
+
+.plan h3 {
+    font-size: 20px;
     margin: 50px 0 25px 0;
+    font-weight: 500;
+    font-family: Montserrat-SemiBold;
 }
 
-.plan p{
-    font-size: medium;
-    padding: 10% 20% 10% 20%;
+.plan .mes {
+    font-size: 25px;
+    padding: 0%;
+    font-family: Montserrat-Regular;
 }
 
-.plan button{
+.plan p {
+    font-size: 20px;
+    padding: 2% 20% 5% 20%;
+    font-family: Montserrat-Regular;
+}
+
+.plan button {
     background-color: initial;
     border: none;
-    font-size: x-large;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 10%;
+    font-family: Montserrat-Black;
 }
 
-.plan1padre{
+.plan1padre {
     max-width: 400px;
 }
 
-.plan1hijo{
+.plan1hijo {
     width: 100%;
 }
 
@@ -127,65 +245,82 @@
 
 /* comienzo porque viejar con  */
 
-.porqueviajar{
+.porqueviajar {
     width: 100%;
     background-color: #97BFA7;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    height: 600px;
+    height: max-content;
     text-align: center;
     color: white;
+    margin-top: 250px;
+    margin-bottom: 150px;
 }
 
-.porqueviajar1{
-    display: flex; 
+.porqueviajar1 {
+    /* display: inline-block; */
+    display: flex;
     justify-content: space-around;
-    
+
 }
 
-.porqueviajar h1{
-    padding: 6%;
+.porqueviajar h1 {
+    padding: 6% 0 4% 0;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Montserrat-Bold;
 }
 
-.pqv h3{
-    margin: 40px 0 25px 0;
-    
+.pqv h3 {
+    margin: 20px 0 25px 0;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    /* padding: 0 18% 0 18%; */
+    font-family: Montserrat-SemiBold;
+    text-align: center;
+    /* text-rendering: geometricPrecision; */
+    display: inline;
+
 }
 
-.pqv p{
-    font-size: medium;
-    padding: 10% 20% 10% 20%;
-    
+.pqv p {
+    font-size: 25px;
+    padding: 0% 20% 10% 20%;
+    font-weight: 200;
+    font-family: Montserrat-Regular;
+    /* text-rendering: geometricPrecision; */
 }
 
 /* fin porque viejar con  */
 
 /* comienzo testimonios  */
 
-.testimonios{
-    display: flex; 
+.testimonios {
+    display: flex;
     justify-content: space-around;
     margin-top: 150px;
 }
 
-.testimonios h3{
+.testimonios h3 {
     margin: 10% 0 0 0;
+    font-family: Montserrat-SemiBold;
 }
 
-.testimonios p{
+.testimonios p {
     font-size: medium;
     padding: 1% 10% 5% 10%;
-    
+    font-family: Montserrat-Regular;
+
 }
 
 
-.testimonio{
+.testimonio {
     border: 2px solid black;
     text-align: center;
     max-width: 400px;
 }
 
-.testimonio img{
+.testimonio img {
     border-radius: 50%;
     margin: -18% 0 0 0;
 }

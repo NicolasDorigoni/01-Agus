@@ -23,6 +23,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
+    
     }
 
     nav ul li.separador{
@@ -37,5 +38,9 @@ nav ul li{
         text-align: center;
         display: flex;
         padding: .5rem 1rem .5rem 1rem;
-      
-       }
+    }
+
+    nav ul li a:hover{
+        transform: scale(1.1,1.1);
+        font-weight: bold;
+    }
